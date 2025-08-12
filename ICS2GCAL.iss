@@ -60,12 +60,6 @@ Root: HKCU; Subkey: "Software\ICS2GCal\Capabilities"; ValueType: string; ValueNa
 Root: HKCU; Subkey: "Software\ICS2GCal\Capabilities\FileAssociations"; ValueType: string; ValueName: ".ics"; ValueData: "ICS2GCal.ics"
 Root: HKCU; Subkey: "Software\RegisteredApplications"; ValueType: string; ValueName: "ICS2GCal"; ValueData: "Software\ICS2GCal\Capabilities"; Flags: uninsdeletevalue
 
-; ---- Context menu verb (classic menu / 'Show more options') ----
-; Use SystemFileAssociations so it shows even if the app isn't the default
-Root: HKCU; Subkey: "Software\Classes\SystemFileAssociations\.ics\shell\AddToGoogleCalendar"; ValueType: string; ValueName: "MUIVerb"; ValueData: "Add to Google Calendar"; Flags: uninsdeletekey
-Root: HKCU; Subkey: "Software\Classes\SystemFileAssociations\.ics\shell\AddToGoogleCalendar"; ValueType: string; ValueName: "Icon"; ValueData: "{app}\ICS2GCal.exe,0"
-Root: HKCU; Subkey: "Software\Classes\SystemFileAssociations\.ics\shell\AddToGoogleCalendar\command"; ValueType: string; ValueData: """""{app}\ICS2GCal.exe"""" """"%1"""""
-
 [UninstallDelete]
 ; Clean app folder on uninstall
 Type: filesandordirs; Name: "{app}"

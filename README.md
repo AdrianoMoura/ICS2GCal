@@ -19,18 +19,14 @@ Double‑click an `.ics` → ICS2GCal reads it and opens Google Calendar’s “
 1. Run `ICS2GCal-Setup.exe`.
 
 ### Use
-- Right‑click → **Open with** → **ICS2GCal** (check **Always**), or  
-- (Classic menu) Right‑click → **Show more options** → **Add to Google Calendar**.
-
-
-You can open **Settings → Apps → Default apps** and set **.ics** to **ICS2GCal** to make it a default application.
+- Right‑click → **Open with** → **ICS2GCal** (check **Always**).
 
 That’s it — your browser opens Google Calendar with the event filled in.
 
 ### Portable version
 
 - Save the Portable version in a know directory
-- Right‑click yout ICS file → **Open with** → **Search for the executable downloaded**
+- Right‑click yout ICS file → **Open with** → **Search for the downloaded executable**
 ---
 
 ## Technical details (for developers)
@@ -60,7 +56,6 @@ Output:
 The script (`installer/ICS2GCal.iss`) registers:
 - **Open with** (with icon)
 - **Default apps (Capabilities)** entry
-- **Classic context‑menu** verb: “Add to Google Calendar”
 
 Build the installer:
 ```powershell
