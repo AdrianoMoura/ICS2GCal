@@ -36,12 +36,12 @@ Name: "{group}\ICS2GCal"; Filename: "{app}\ICS2GCal.exe"; IconFilename: "{app}\i
 ; ---- ProgID (file handler) ----
 Root: HKCU; Subkey: "Software\Classes\ICS2GCal.ics"; ValueType: string; ValueData: "ICS2GCal ICS Handler"; Flags: uninsdeletekey
 Root: HKCU; Subkey: "Software\Classes\ICS2GCal.ics\DefaultIcon"; ValueType: string; ValueData: "{app}\icon.ico"
-Root: HKCU; Subkey: "Software\Classes\ICS2GCal.ics\shell\open\command"; ValueType: string; ValueData: ""{app}\ICS2GCal.exe"" ""%1""
+Root: HKCU; Subkey: "Software\Classes\ICS2GCal.ics\shell\open\command"; ValueType: string; ValueData: """{app}\ICS2GCal.exe"" ""%1"""
 
 ; ---- Applications\ICS2GCal.exe (for 'Open with') ----
 Root: HKCU; Subkey: "Software\Classes\Applications\ICS2GCal.exe"; ValueType: string; ValueName: "FriendlyAppName"; ValueData: "ICS2GCal"; Flags: uninsdeletekey
 Root: HKCU; Subkey: "Software\Classes\Applications\ICS2GCal.exe\DefaultIcon"; ValueType: string; ValueData: "{app}\icon.ico"
-Root: HKCU; Subkey: "Software\Classes\Applications\ICS2GCal.exe\shell\open\command"; ValueType: string; ValueData: ""{app}\ICS2GCal.exe"" ""%1""
+Root: HKCU; Subkey: "Software\Classes\Applications\ICS2GCal.exe\shell\open\command"; ValueType: string; ValueData: """{app}\ICS2GCal.exe"" ""%1"""
 ; Explicitly declare support for .ics
 Root: HKCU; Subkey: "Software\Classes\Applications\ICS2GCal.exe\SupportedTypes"; ValueType: string; ValueName: ".ics"; ValueData: ""
 
