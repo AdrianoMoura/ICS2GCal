@@ -3,11 +3,10 @@
   <PropertyGroup>
     <AssemblyName>ICS2GCal</AssemblyName>
     <Version>1.0.0</Version>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <TargetFramework>net8.0</TargetFramework>
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>true</SelfContained>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
@@ -15,6 +14,10 @@
     <PublishTrimmed>false</PublishTrimmed>
     <InvariantGlobalization>true</InvariantGlobalization>
     <ApplicationIcon>assets\icon.ico</ApplicationIcon>
+    <Company>AdrianoMoura</Company>
+    <Product>ICS2GCal</Product>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
