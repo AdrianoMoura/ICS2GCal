@@ -1,3 +1,4 @@
+![ICS2GCal](https://github.com/AdrianoMoura/ICS2GCal/blob/master/assets/icon.png?raw=true)
 # ICS2GCal
 
 Open `.ics` files in **Google Calendar** on Windows.  
