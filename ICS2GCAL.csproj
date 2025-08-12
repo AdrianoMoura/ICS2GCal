@@ -11,7 +11,7 @@
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>true</SelfContained>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
     <PublishTrimmed>false</PublishTrimmed>
     <InvariantGlobalization>true</InvariantGlobalization>
     <ApplicationIcon>assets\icon.ico</ApplicationIcon>
