@@ -3,14 +3,14 @@
 [Setup]
 AppId=F3C3C5C7-1CDE-4F12-9A8C-7B9B0E6E5A11
 AppName=ICS2GCal
-AppVersion=1.0.0
+AppVersion=1.0.1
 AppPublisher=AdrianoMoura
 AppPublisherURL=https://github.com/AdrianoMoura/ICS2GCal
 AppSupportURL=https://github.com/AdrianoMoura/ICS2GCal/issues
 VersionInfoCompany=AdrianoMoura
 VersionInfoDescription=Open ICS files in Google Calendar
 VersionInfoProductName=ICS2GCal
-VersionInfoVersion=1.0.0.0
+VersionInfoVersion=1.0.1.0
 DefaultDirName={localappdata}\ICS2GCal
 DefaultGroupName=ICS2GCal
 OutputDir=.
