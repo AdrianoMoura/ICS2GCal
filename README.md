@@ -10,9 +10,9 @@ Double‑click an `.ics` → ICS2GCal reads it and opens Google Calendar’s “
 
 **Get the latest version here:**  
 - 👉 **Installer (recommended):**  
-  `https://github.com/AdrianoMoura/ICS2GCal/releases/latest/download/ICS2GCal-Setup.exe`
+  [https://github.com/AdrianoMoura/ICS2GCal/releases/latest/download/ICS2GCal-Setup.exe](https://github.com/AdrianoMoura/ICS2GCal/releases/latest/download/ICS2GCal-Setup.exe)
 - 👉 **Portable (no install):**  
-  `https://github.com/AdrianoMoura/ICS2GCal/releases/latest/download/ICS2GCal-Portable.exe`
+  [https://github.com/AdrianoMoura/ICS2GCal/releases/latest/download/ICS2GCal-Portable.exe](https://github.com/AdrianoMoura/ICS2GCal/releases/latest/download/ICS2GCal-Portable.exe)
 
 
 ### Install (recommended)
@@ -27,6 +27,10 @@ You can open **Settings → Apps → Default apps** and set **.ics** to **ICS2GC
 
 That’s it — your browser opens Google Calendar with the event filled in.
 
+### Portable version
+
+- Save the Portable version in a know directory
+- Right‑click yout ICS file → **Open with** → **Search for the executable downloaded**
 ---
 
 ## Technical details (for developers)
